@@ -1,0 +1,5 @@
+Roboto variable, normal Latin subset, weights 100–900.
+Distributed by Fontsource (@fontsource-variable/roboto 5.3.0).
+Upstream: https://github.com/googlefonts/roboto-classic
+Font package: https://www.npmjs.com/package/@fontsource-variable/roboto/v/5.3.0
+The license and copyright notice accompany this file in OFL.txt.

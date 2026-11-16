@@ -1,0 +1,23 @@
+# 日常维护：修改引号里的内容。留空不会显示虚构的联系方式。
+# 首页与各页左上角：第一段姓名加粗，第二段使用细体。中文名也可以只填第一段。
+first_name = ""
+last_name = ""
+position = ""
+email = ""
+# 把自己的照片放到 files/ 下，再填写例如 "files/photo.jpg"。建议正方形。
+portrait = ""
+# 选填；在 CV 页显示 PDF 链接。示例："files/cv.pdf"
+cv_pdf = ""
+# 正文主要使用中文时，改成 "zh-CN"。导航文字沿用参考站的英文名。
+language = "en"
+# 暂时不展示的栏目可从列表中删去；保留 About。恢复名称即可重新显示和生成此页。
+pages = ["About", "Publications", "Research", "Teaching", "CV", "Services", "People", "Openings"]
+
+# 只填写属于你自己的完整 https:// 网址。空项仅保留图标位置，不能点击。
+[social]
+linkedin = ""
+scholar = ""
+zhihu = ""
+researchgate = ""
+orcid = ""
+github = ""

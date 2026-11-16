@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+ <title>Portrait placeholder</title>
+ <rect width="480" height="480" fill="#f0f1f2"/>
+ <circle cx="240" cy="179" r="67" fill="#c8cbd0"/>
+ <path d="M90 400c0-88 67-144 150-144s150 56 150 144Z" fill="#c8cbd0"/>
+</svg>
