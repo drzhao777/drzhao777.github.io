@@ -1,0 +1,20 @@
+name: Import blank homepage template
+on: push
+permissions:
+  contents: write
+jobs:
+  unpack:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and import template files
+        run: |
+          echo '67ac83c9c4df1348b28055816e90da43f9008f37fb342454ef0334ebb323b5a4  academic-homepage-source.tar.gz' | sha256sum -c -
+          tar -xzf academic-homepage-source.tar.gz
+          git rm academic-homepage-source.tar.gz
+          git add --all
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import editable blank academic homepage'
+          git push origin HEAD:main
